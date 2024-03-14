@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+  <script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+  <title>Adex Capital</title>
+</head>
+
+<body>
+
+  <header class="main-bg">
+    <div class="container">
+      <div class="row  align-items-center py-4">
+        <div class="col-3 col-md-2 col-lg-1">
+          <img class="logo" src="./assets/img/logo.svg" alt="">
+        </div>
+        <div class="col-4 col-md-5 col-lg-4 ">
+          <nav class="navbar navbar-expand-lg" data-bs-theme="dark">
+            <div class="container-fluid">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                  <a class="nav-link text-white " href="#">Home</a>
+                  <a class="nav-link text-white" href="#">About</a>
+                  <a class="nav-link text-white" href="#">Invest</a>
+                  <a class="nav-link text-white" href="#">Reviews</a>
+                  <a class="nav-link text-white" href="#">Contacts</a>
+                </div>
+              </div>
+            </div>
+          </nav>
+        </div>
+        <div class="col-4 col-md-5 col-lg-2">
+          <ul class="social-menu">
+            <li><a class="social-menu__item social-menu__item--twitter " href="#"><img src="./assets/img/twitter.svg"
+                  alt="Twitter"></a></li>
+            <li><a class="social-menu__item social-menu__item--facebook" href="#"><img src="./assets/img/facebook.svg"
+                  alt="facebook"></a></li>
+            <li><a class="social-menu__item social-menu__item--youtube" href="#"><img src="./assets/img/youtube.svg"
+                  alt="Youtube"></a></li>
+            <li><a class="social-menu__item social-menu__item--telegram" href="#"><img src="./assets/img/telegram.svg"
+                  alt="Telegram"></a></li>
+          </ul>
+        </div>
+        <div class="col-3 col-md-6 col-lg-1 ">
+          <div class="dropdown">
+            <button class="drop-btn dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              <span class="drop-btn__lng "><img src="./assets/img/united-kingdom.png" alt=""></span>
+              English
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+              <li><a class="dropdown-item" href="#"></a>Ukrainian</li>
+              <li><a class="dropdown-item" href="#">Polish</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-9 col-md-6 col-lg-4 text-end">
+          <button class="custom-btn ">Sign up</button>
+          <button class="custom-btn custom-btn--outline">Sign In</button>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main class="main-bg">
+    <div class="container">
+      <div class="row py-6">
+        <div class="col-12 col-sm-6 order-2 order-sm-1 px-55 pt-35 ">
+          <formn>
+            <h2 class="text-white pb-3">Create an account</h2>
+            <p class="text-gray">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia
+              consequat duis enim velit mollit.</p>
+
+            <div>
+              <fieldset class="row mb-3">
+                <input type="email" class="form-create form-md bg-dark col me-3 mt-3 py-3 px-5 " id="floatingInput"
+                  placeholder="name@example.com">
+                <input type="password" class="form-create form-md  col me-3 mt-3 bg-dark py-3 px-5"
+                  id="floatingPassword" placeholder="Enter your username">
+              </fieldset>
+
+              <fieldset class="row ">
+                <input type="email" class="form-create form-md col bg-dark me-3 mt-3 py-3 px-5" id="floatingInput"
+                  placeholder="Enter password">
+                <input type="password" class="form-create form-md  col me-3 mt-3 bg-dark py-3 px-5 "
+                  id="floatingPassword" placeholder="Repead password">
+              </fieldset>
+            </div>
+            </form>
+            <div class="row py-4 text-white">
+              <h3>My wallets</h3>
+            </div>
+            <div class="input-group flex-nowrap mb-3">
+              <span class="input-group-text bg-dark text-white py-3 col-6 col-md-6 col-lg-5" id="addon-wrapping"><img class="wallet-img" src="./assets/img/binance-coin.png" alt="Binance Coin">Binance Coin</span>
+              <input type="text" class="form-control form-control--dark" placeholder="Enter wallet number" aria-describedby="addon-wrapping">
+            </div>
+            <div class="input-group flex-nowrap mb-3">
+              <span class="input-group-text bg-dark text-white py-3 col-6 col-md-6 col-lg-5" id="addon-wrapping"><img class="wallet-img" src="./assets/img/bitcoin.png" alt="Bitcoin">Bitcoin</span>
+              <input type="text" class="form-control form-control--dark" placeholder="Enter wallet number"  aria-describedby="addon-wrapping">
+            </div>
+            <div class="input-group flex-nowrap mb-3">
+              <span class="input-group-text bg-dark text-white py-3 col-6 col-md-6 col-lg-5" id="addon-wrapping"><img class="wallet-img" src="./assets/img/bitcoin-cash.png" alt="Bitcoin Cash">Bitcoin Cash</span>
+              <input type="text" class="form-control form-control--dark" placeholder="Enter wallet number" aria-describedby="addon-wrapping">
+            </div>
+            <div class="form-check mt-5 text-white">
+              <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+              <label class="form-check-label" for="flexCheckChecked">
+                I agree to all statements incuded in Terms of Use
+              </label>
+            </div>
+            <button type="button" class=" btn btn--start btn-primary py-3 px-5 mt-5">Start invesint now</button>
+        </div>
+        <div class="col-12 col-sm-6 order-1 order-sm-2 text-white ">
+          <div class="form-regist px-5 py-5">
+            <div class="mb-4">
+              <h1>Fast</h1>
+              <p>registration</p>
+            </div>
+            <div class="form-floating mb-4">
+              <input type="email" class=" form-control form-control--blue" id="floatingInput" placeholder="name@example.com">
+              <label for="floatingInput">Email address</label>
+            </div>
+            <div class="form-floating mb-4">
+              <input type="password" class=" form-control form-control--blue" id="floatingPassword" placeholder="Password">
+              <label for="floatingPassword">Password</label>
+            </div>
+            <button type="button" class="btn btn--dark btn-dark btn-lg py-3 px-5" >Get started with<img class="px-2 py-2" src="./assets/img/logo-img.png" alt=""></button>
+            <h6 class="mt-6">Velit officia consequat duis enim velit mollit. </h6>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer-bg">
+<div class="container">
+  <div class="row py-4">
+  <img  src="./assets/img/Frame 885.png" alt="Frame">
+  </div>
+  <div class="footer-info">
+  <div class="col-1 col-md-2 col-lg-1">
+    <img class="logo" src="./assets/img/logo.svg" alt="logo">
+  </div>
+  <div class="col-2 col-md-3 col-lg-4" >
+    <a  href="#">Check our company <img  src="./assets/img/arrow-right.png" alt="arrow-right"></a>
+    <p class="mt-2">4517 Washington Ave. Manchester, Kentucky 39495</p>
+  </div>
+  <div class="col-3 col-md-2 col-lg-1 text-white">
+    <ul class="list-unstyled ">
+      <li class="mb-3">Home</li>
+      <li class="mb-3">Investment</li>
+      <li >FAQ</li>
+    </ul>
+  </div>
+  <div class="col-2 col-md-2 col-lg-1  text-white">
+    <ul class="list-unstyled">
+      <li class="mb-2">Reviews</li>
+      <li class="mb-3">About</li>
+      <li>Contacts</li>
+    </ul>
+  </div>
+  <div class="col-3 col-md-2 col-lg-3">
+    <button type="button" class=" btn btn--footer btn-primary py-2 px-3">Start invesint now</button>
+  </div>
+</div>
+</div>
+  </footer>
+</body>
+
+</html>
