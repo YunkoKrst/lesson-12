@@ -1,0 +1,173 @@
+.main-bg {
+  background-color: #1D1E22;
+}
+
+.footer-bg {
+  background-color: #23252F;
+}
+
+.logo {
+  width: 100%;
+}
+
+.social-menu {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+.social-menu li {
+  list-style: none;
+}
+.social-menu__item {
+  border-radius: 16px;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  background: rgb(32, 193, 207);
+  background-image: linear-gradient(to bottom right, rgba(32, 193, 207, 0.568627451) 15%, rgba(83, 95, 230, 0.8392156863) 53%);
+}
+
+.drop-btn {
+  position: relative;
+  background-color: transparent;
+  border: none;
+  color: #fff;
+  font-size: 16px;
+  line-height: 26px;
+  padding-left: 40px;
+}
+.drop-btn__lng {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 12px;
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(255, 255, 255, 0.1);
+}
+.drop-btn__lng img {
+  width: 24px;
+}
+.drop-btn::after {
+  display: none;
+}
+
+.custom-btn {
+  padding: 11px 35px;
+  background: rgb(32, 193, 207);
+  background-image: linear-gradient(to bottom right, rgba(32, 193, 207, 0.568627451) 15%, rgba(83, 95, 230, 0.8392156863) 53%);
+  border: 2px solid;
+  border-radius: 16px;
+}
+.custom-btn--outline {
+  background: #1D1E22;
+  color: #fff;
+  border-color: rgba(83, 95, 230, 0.8392156863);
+  border-radius: 16px;
+}
+
+.form-regist {
+  border-radius: 60px, 20px, 20px, 20px;
+  background-image: linear-gradient(to bottom right, rgba(32, 193, 207, 0.568627451) 15%, rgba(83, 95, 230, 0.8392156863) 53%);
+}
+.form-regist h1 {
+  font-size: 72px;
+  font-weight: 600;
+}
+.form-regist p {
+  font-size: 40px;
+  font-weight: 600;
+}
+.form-regist h6 {
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.wallet-img {
+  padding-right: 15px;
+}
+
+.form {
+  background-color: #1D1E22;
+  opacity: 0.5;
+  border-radius: 20px;
+  border-color: #fff;
+}
+
+.form-create {
+  border-color: #fff;
+  border-radius: 20px;
+}
+
+.form-md {
+  width: 255px;
+}
+
+.form-control--blue {
+  background-image: linear-gradient(to bottom right, rgba(32, 193, 207, 0.568627451) 15%, rgba(83, 95, 230, 0.8392156863) 53%);
+  opacity: 0.2;
+  border-radius: 20px;
+}
+.form-control--dark {
+  background-color: #1D1E22;
+}
+.form-control--dark::placeholder {
+  color: #5E647A;
+}
+
+.btn--dark {
+  border-radius: 50px;
+}
+.btn--start {
+  background-color: #535FE6;
+  border-radius: 20px;
+}
+.btn--footer {
+  background-color: #1D1E22;
+  border-radius: 20px;
+  color: rgba(83, 95, 230, 0.8392156863);
+}
+
+.footer-info {
+  display: flex;
+  justify-content: space-between;
+}
+.footer-info p,
+.footer-info li {
+  color: #5E647A;
+}
+
+.py-6 {
+  padding-top: 64px;
+  padding-bottom: 64px;
+}
+
+.px-55 {
+  padding-left: 55px;
+  padding-right: 55px;
+}
+
+.text-gray {
+  color: #5E647A;
+}
+
+.pt-35 {
+  padding-top: 35px;
+}
+
+.mt-7 {
+  margin-top: 256px;
+}
+
+.mt-6 {
+  margin-top: 143px;
+}
+
+/*# sourceMappingURL=style.css.map */
